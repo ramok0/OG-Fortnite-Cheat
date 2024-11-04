@@ -35,7 +35,7 @@ void Game::MenuCallback() {
 	// Menu
 #ifdef _IMGUI
 	if (MenuOpen) {
-		ImGui::Begin(skCrypt("Settings"));
+		ImGui::Begin(skCrypt("My Own Cheat Settings"));
 
 		// Menu Tabs
 		if (ImGui::Button(skCrypt("Aimbot"), ImVec2(150, 30))) {
